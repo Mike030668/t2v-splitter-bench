@@ -24,3 +24,6 @@ data/interim/
 # OS/editor
 .DS_Store
 Thumbs.db
+
+# Local control link (do not commit)
+.control
