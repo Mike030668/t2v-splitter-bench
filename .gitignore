@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Runtime artifacts
+logs/
+runs/
+outputs/
+tmp/
+.cache/
+
+# Large artifacts (track via DVC/ClearML, not git)
+artifacts/
+models/
+data/raw/
+data/interim/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# OS/editor
+.DS_Store
+Thumbs.db
